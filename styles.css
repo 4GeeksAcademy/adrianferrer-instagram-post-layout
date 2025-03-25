@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+.all {
+    display: flex;
+    justify-content: center;
+}
+.post {
+    padding: 1%;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+div.right{
+    display: flex;
+}
+.html5-icon {
+    display: flex;
+}
+
+div.post-icons {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 500px;
+    object-fit: cover;
+}
+
+/* Select all elements with a class that contains 'button' */
+[class*="fa"] {
+    font-size:xx-large;
+    
+}
